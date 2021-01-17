@@ -62787,7 +62787,7 @@ var PageRevealer = /*#__PURE__*/function (_React$Component) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(components_animation_container__WEBPACK_IMPORTED_MODULE_5__["default"], {
         animation: "fadeIn"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(components_baffle_text__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        text: "Abstract",
+        text: "Hello World",
         revealDuration: 500,
         revealDelay: 1000,
         parentMethod: this.reveal,
@@ -64200,9 +64200,9 @@ var Hero = /*#__PURE__*/function (_React$Component) {
       style: {
         height: (this.state.width > 500 ? this.state.height : 350) + "px"
       }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Container"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Content, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Heading1, null, "Creative"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Heading2, null, "Digital Agency"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Separator, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Type, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(typewriter_effect__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Container"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Content, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Heading1, null, "Andrew"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Heading2, null, "Moses"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Separator, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Type, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(typewriter_effect__WEBPACK_IMPORTED_MODULE_7___default.a, {
       options: {
-        strings: ['App Developers', 'Web Designers', 'UX Designers'],
+        strings: ["Full Stack Web Developer"],
         autoStart: true,
         loop: true
       }

@@ -211,19 +211,18 @@ class Hero extends React.Component {
                         <Container>
                             <Content>
                                 <Heading1>
-                                    Creative
+                                    Andrew
                                 </Heading1>
                                 <Heading2>
-                                    Digital Agency
+                                    Moses
                                 </Heading2>
                                 <Separator/>
                                 <Type>
                                     <Typewriter
                                         options={{
                                         strings: [
-                                            'App Developers',
-                                            'Web Designers',
-                                            'UX Designers',
+                                            "Full Stack Web Developer",
+                                            
                                         ],
                                         autoStart: true,
                                         loop: true,
