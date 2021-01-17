@@ -74,6 +74,6 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop"
+    "dev": "gatsby develop"
   }
 }
