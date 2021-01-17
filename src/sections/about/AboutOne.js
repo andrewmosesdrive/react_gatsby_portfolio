@@ -2,8 +2,7 @@ import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
 import styled from 'styled-components'
 import RevealContent from 'components/reveal-content'
-import Counter from 'components/counter'
-import AnimationContainer from 'components/animation-container'
+import AnimationContainer from '../../components/animation-container'
 import Particles from 'react-particles-js';
 class AboutOne extends React.Component {
 
@@ -213,7 +212,7 @@ class AboutOne extends React.Component {
                         <LeftCol md={6}>
                             <RevealContent>
                                 <Heading>
-                                    Renowned <Color>Software</Color> Company From <Color>London</Color>
+                                    Focused on creating <Color>unique,</Color> accessible <Color>applications</Color>
                                 </Heading>
                             </RevealContent>
                         </LeftCol>
@@ -222,28 +221,28 @@ class AboutOne extends React.Component {
                                 <Col md={6}>
                                     <AnimationContainer animation="fadeInLeft" delay={1000}>
                                         <CounterComponent style={{marginBottom: "100px"}}>
-                                            <Counter value={5} duration={5} delay={1000} symbol="+" text="5 Years of Experience" />
+                                            
                                         </CounterComponent>
                                     </AnimationContainer>
                                 </Col>
                                 <Col md={6}>
                                     <AnimationContainer animation="fadeInRight" delay={1000}>
                                         <CounterComponent style={{marginBottom: "100px"}}>
-                                            <Counter value={100} duration={5} delay={1000} symbol="+" text="Clients Worked With" />
+                                            
                                         </CounterComponent>
                                     </AnimationContainer>
                                 </Col>
                                 <Col md={6}>
                                     <AnimationContainer animation="fadeInLeft" delay={1000}>
                                         <CounterComponent>
-                                            <Counter value={15} duration={5} delay={1000} text="Team Members" />
+                                            
                                         </CounterComponent>
                                     </AnimationContainer>
                                 </Col>
                                 <Col md={6}>
                                     <AnimationContainer animation="fadeInRight" delay={1000}>
                                         <CounterComponent>
-                                            <Counter value={10} duration={5} delay={1000} symbol="+" text="Honourable Awards" />
+                                           
                                         </CounterComponent>
                                     </AnimationContainer>
                                 </Col>

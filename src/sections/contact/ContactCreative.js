@@ -3,6 +3,7 @@ import { Row, Col, Container } from 'react-bootstrap'
 import { graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
 import AnimationContainer from 'components/animation-container'
+import {FaGoogle, FaLinkedinIn, FaGithub} from 'react-icons/fa'
 
 class ContactCreative extends React.Component {
 
@@ -47,11 +48,11 @@ class ContactCreative extends React.Component {
               background-color: #009e9e;
             }
         `
-        const Icon = styled.img`
-            height: 70px;
-            width: 70px;
-            object-fit: contain;
-        `
+        const IconStyle = {
+            height: '70px',
+            width: '70px',
+            objectFit: 'contain'
+        }
 
         const InfoTitle = styled.h4`
             font-size: 35px;
@@ -89,7 +90,7 @@ class ContactCreative extends React.Component {
                         <AnimationContainer animation="fadeIn" delay={500}>
                           <InfoPart>
                             <IconContainer>
-                                <Icon src={this.props.emailIcon.childImageSharp.fluid.src} alt="email" />
+                                <FaGoogle style={IconStyle}/>
                             </IconContainer>
                             <Info>
                               <InfoTitle>
@@ -108,15 +109,15 @@ class ContactCreative extends React.Component {
                         <AnimationContainer animation="fadeIn" delay={1000}>
                           <InfoPart>
                             <IconContainer>
-                              <Icon src={this.props.phoneIcon.childImageSharp.fluid.src} alt="phone" />
+                              <FaLinkedinIn style={IconStyle}/>
                             </IconContainer>
                             <Info>
                               <InfoTitle>
-                                Phone
+                                LinkedIn
                               </InfoTitle>
                               <InfoLinkContainer>
-                                <InfoLink href="tel:+(123)123-1234">
-                                  (480) 612-5250
+                                <InfoLink href="https://www.linkedin.com/in/andrewjmoses/">
+                                  Profile
                                 </InfoLink>
                               </InfoLinkContainer>
                             </Info>
@@ -127,10 +128,10 @@ class ContactCreative extends React.Component {
                         <AnimationContainer animation="fadeIn" delay={1500}>
                           <InfoPart>
                             <IconContainer>
-                              <Icon src={this.props.mapIcon.childImageSharp.fluid.src} alt="map" />
+                            <FaGithub style={IconStyle}/>
                             </IconContainer>
                             <Info>
-                              <InfoTitle>
+                            <InfoTitle>
                                 GitHub
                               </InfoTitle>
                               <InfoLinkContainer>
@@ -178,12 +179,12 @@ export default props => (
     }
     `}
     render={({ 
-      emailIcon, 
-      mapIcon, 
-      phoneIcon}) => <ContactCreative  
-      emailIcon={emailIcon} 
-      mapIcon={mapIcon} 
-      phoneIcon={phoneIcon}
+      FaGoogle, 
+      FaLinkedinIn, 
+      FaGithub}) => <ContactCreative  
+      FaGoogle={FaGoogle} 
+      FaLinkedinIn={FaLinkedinIn} 
+      FaGithub={FaGithub}
       {...props} />}
   />
 )

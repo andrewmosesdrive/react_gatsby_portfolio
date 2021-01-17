@@ -4,7 +4,7 @@ import styled, { keyframes } from 'styled-components'
 import RevealContent from 'components/reveal-content'
 import { StaticQuery, graphql } from 'gatsby'
 import Counter from 'components/counter'
-import AnimationContainer from 'components/animation-container'
+import AnimationContainer from '../../components/animation-container'
 import TabsPart from 'sections/about/parts/TabsPart'
 
 class AboutPersonal extends React.Component {

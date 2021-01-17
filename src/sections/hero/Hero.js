@@ -42,7 +42,7 @@ class Hero extends React.Component {
                 width: 100%;
                 height: 100%;
             }
-            background-image: url(${this.props.background.childImageSharp.fluid.src});
+            background-image: url();
             background-size: cover;
             background-repeat: no-repeat;
         `
@@ -192,13 +192,6 @@ class Hero extends React.Component {
             margin-bottom: 10px;
         `
 
-        const ServiceIcon = styled.div`
-            margin-bottom: 20px;
-            img {
-                max-height: 70px;
-            }
-        `
-
         const ServiceText = styled.p`
             font-size: 14px;
             font-weight: 300;
@@ -238,14 +231,11 @@ class Hero extends React.Component {
                                     <ServiceCol md={4} style={{borderRight: this.state.width > 500 ? "1px solid #444" : "none"}}>
                                         <Service>
                                             <ServiceContent>
-                                                <ServiceIcon>
-                                                    <img src={this.props.webexpertIcon.childImageSharp.fluid.src} alt="web experts" />
-                                                </ServiceIcon>
-                                                <ServiceHeading>Web Experts</ServiceHeading>
+                                                
+                                                <ServiceHeading>UX/UI</ServiceHeading>
                                                 <ServiceSeparator/>
                                                 <ServiceText>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae ultricies lacus, vitae varius velit. 
-                                                    Pellentesque blandit libero eu turpis condimentum bibendum.
+                                                    Accessible, user-friendly, and awe-inspiring applications are my focus. Taking into account the different needs of users while keeping it fresh will keep people coming back.
                                                 </ServiceText>
                                             </ServiceContent>
                                         </Service>
@@ -253,14 +243,11 @@ class Hero extends React.Component {
                                     <ServiceCol md={4} style={{borderRight: this.state.width > 500 ? "1px solid #444" : "none"}}>
                                         <Service>
                                             <ServiceContent>
-                                                <ServiceIcon>
-                                                        <img src={this.props.mobileIcon.childImageSharp.fluid.src} alt="mobile experts" />
-                                                </ServiceIcon>
-                                                <ServiceHeading>Mobile Experts</ServiceHeading>
+                                                
+                                                <ServiceHeading>Backend Functionality</ServiceHeading>
                                                 <ServiceSeparator/>
                                                 <ServiceText>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae ultricies lacus, vitae varius velit. 
-                                                    Pellentesque blandit libero eu turpis condimentum bibendum.
+                                                    Complex data structures, strong logic, and clean code on the back end means improved performance, reduced time and space complexity, and confidence in your applications.
                                                 </ServiceText>
                                             </ServiceContent>
                                         </Service>
@@ -268,14 +255,11 @@ class Hero extends React.Component {
                                     <ServiceCol md={4}>
                                         <Service>
                                             <ServiceContent>
-                                                <ServiceIcon>
-                                                        <img src={this.props.seoIcon.childImageSharp.fluid.src} alt="seo experts" />
-                                                </ServiceIcon>
-                                                <ServiceHeading>SEO Experts</ServiceHeading>
+                                                
+                                                <ServiceHeading>SEO and Mobile First</ServiceHeading>
                                                 <ServiceSeparator/>
                                                 <ServiceText>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae ultricies lacus, vitae varius velit. 
-                                                    Pellentesque blandit libero eu turpis condimentum bibendum.
+                                                    Search Engine Optimization means more hits, more views, more clicks for your business. Responsive applications will open up your products and services to a larger market share.
                                                 </ServiceText>
                                             </ServiceContent>
                                         </Service>

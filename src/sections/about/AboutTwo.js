@@ -3,7 +3,7 @@ import { Row, Container, Col } from 'react-bootstrap'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import RevealContent from 'components/reveal-content'
-import AnimationContainer from 'components/animation-container'
+import AnimationContainer from '../../components/animation-container'
 import Particles from 'react-particles-js';
 import Counter from 'components/counter'
 

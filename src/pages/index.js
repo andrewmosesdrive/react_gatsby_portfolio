@@ -5,7 +5,6 @@ import Helmet from 'react-helmet'
 import Hero from 'sections/hero/Hero.js'
 import AboutOne from 'sections/about/AboutOne.js'
 import PortfolioOne from 'sections/portfolio/PortfolioOne.js'
-import ClientsOne from 'sections/clients/ClientsOne.js'
 import ContactCreative from 'sections/contact/ContactCreative.js'
 
 class Index extends React.Component {
@@ -22,12 +21,11 @@ class Index extends React.Component {
         </Helmet>
         <Layout
           isHome={true}
-          sections={['home', 'about', 'portfolio',  'clients', 'contact']}
+          sections={['home', 'about', 'portfolio', 'contact']}
         >
           <Hero />
           <AboutOne />
           <PortfolioOne />
-          <ClientsOne />
           <ContactCreative />
         </Layout>
       </div>

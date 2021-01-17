@@ -5,7 +5,7 @@ import Layout from 'components/layout'
 import HeroVideo from 'sections/hero/HeroVideo.js'
 import AboutOne from 'sections/about/AboutOne.js'
 import PortfolioOne from 'sections/portfolio/PortfolioOne.js'
-import ClientsOne from 'sections/clients/ClientsOne.js'
+import ToolsOne from 'sections/tools/ToolsOne.js'
 import ContactCreative from 'sections/contact/ContactCreative.js'
 
 class Index extends React.Component {
@@ -27,7 +27,7 @@ class Index extends React.Component {
           <HeroVideo />
           <AboutOne />
           <PortfolioOne />
-          <ClientsOne />
+          <ToolsOne />
           <ContactCreative />
         </Layout>
       </div>

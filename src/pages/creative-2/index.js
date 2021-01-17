@@ -5,7 +5,7 @@ import Layout from 'components/layout'
 import Hero from 'sections/hero/Hero.js'
 import AboutTwo from 'sections/about/AboutTwo.js'
 import PortfolioTwo from 'sections/portfolio/PortfolioTwo.js'
-import ClientsTwo from 'sections/clients/ClientsTwo.js'
+// import ClientsTwo from 'sections/clients/ClientsTwo.js'
 import ContactCreative from 'sections/contact/ContactCreative.js'
 
 class Index extends React.Component {
@@ -27,7 +27,7 @@ class Index extends React.Component {
           <Hero />
           <AboutTwo />
           <PortfolioTwo />
-          <ClientsTwo />
+          {/* <ClientsTwo /> */}
           <ContactCreative />
         </Layout>
       </div>

@@ -5,7 +5,7 @@ import Layout from 'components/layout'
 import HeroPersonalVideo from 'sections/hero/HeroPersonalVideo.js'
 import AboutPersonal from 'sections/about/AboutPersonal.js'
 import PortfolioThree from 'sections/portfolio/PortfolioThree.js'
-import ClientsThree from 'sections/clients/ClientsThree.js'
+// import ClientsThree from 'sections/clients/ClientsThree.js'
 import ContactPersonal from 'sections/contact/ContactPersonal.js'
 
 class Index extends React.Component {
@@ -27,7 +27,7 @@ class Index extends React.Component {
           <HeroPersonalVideo />
           <AboutPersonal />
           <PortfolioThree />
-          <ClientsThree />
+          {/* <ClientsThree /> */}
           <ContactPersonal />
         </Layout>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import BaffleText from 'components/baffle-text'
-import AnimationContainer from 'components/animation-container'
+import AnimationContainer from '../../components/animation-container'
 import styled, { keyframes } from 'styled-components';
 
 class PageRevealer extends React.Component {
