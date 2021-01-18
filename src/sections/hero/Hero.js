@@ -55,9 +55,9 @@ class Hero extends React.Component {
         `
 
         const Heading1 = styled.h1`
-            font-size: 80px;
+            font-size: 100px;
             font-family: Teko;
-            line-height: 40px;
+            line-height: 50px;
             color: #fff;
             font-weight: 400;
             text-transform: uppercase;
@@ -77,7 +77,7 @@ class Hero extends React.Component {
         `
 
         const Heading2 = styled.h2`
-            font-size: 120px;
+            font-size: 140px;
             color: #fff;
             font-weight: 700;
             text-transform: uppercase;
