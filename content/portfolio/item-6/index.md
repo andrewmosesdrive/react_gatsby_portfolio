@@ -1,7 +1,7 @@
 ---
 id: 6
-image: './image.jpg'
-title: "UX Development for Company"
-category: "UI/UX Design"
-link: "https://github.com"
+image: './image.png'
+title: "Burger Builder"
+category: "MySQL, Express-Handlebars, JawsDB"
+link: "https://mysterious-chamber-51545.herokuapp.com/"
 ---

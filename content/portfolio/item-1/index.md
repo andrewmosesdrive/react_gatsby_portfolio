@@ -1,7 +1,7 @@
 ---
 id: 1
-image: './image.jpg'
-title: "Front-end Development"
-category: "React.js"
-link: "https://github.com"
+image: './image.png'
+title: "Management ERP"
+category: "JavaScript, Express-Handlebars, Sequelize"
+link: "https://polar-dawn-89598.herokuapp.com/"
 ---

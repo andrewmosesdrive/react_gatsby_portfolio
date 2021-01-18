@@ -1,7 +1,7 @@
 ---
 id: 5
-image: './image.jpg'
-title: "UI Deisgn for Company"
-category: "UI/UX Design"
-link: "https://github.com"
+image: './image.png'
+title: "CMS Organizer"
+category: "CLI, MySQL, Inquirer, Node"
+link: "https://github.com/andrewmosesdrive/Employee_Schema_CMS"
 ---

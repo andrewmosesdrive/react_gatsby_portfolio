@@ -1,7 +1,7 @@
 ---
 id: 3
-image: './image.jpg'
-title: "Angular Project"
-category: "Angular.js"
-link: "https://github.com"
+image: './image.png'
+title: "Budget PWA"
+category: "Mongo DB, Mongoose, Express, Node"
+link: "https://shielded-mesa-23053.herokuapp.com/"
 ---

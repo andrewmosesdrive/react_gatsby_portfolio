@@ -38,8 +38,9 @@ class PortfolioOne extends React.Component {
 
   portfolio() {
       const { items } = this.props
-      
+      console.log(items)
       return items.map((value, index) => {
+        console.log(value, index)
         return (
           <Col md={4} key={index}>
               <PortfolioItem 
