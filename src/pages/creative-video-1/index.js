@@ -27,7 +27,6 @@ class Index extends React.Component {
           <HeroVideo />
           <AboutOne />
           <PortfolioOne />
-          <ToolsOne />
           <ContactCreative />
         </Layout>
       </div>
