@@ -6,13 +6,13 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/content/images/`,
-        name: 'images',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: `${__dirname}/content/images/`,
+    //     name: 'images',
+    //   },
+    // },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
