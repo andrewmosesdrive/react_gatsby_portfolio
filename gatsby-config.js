@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/images/`,
+        path: `./content/images/`,
         name: 'images',
       },
     },
@@ -17,9 +17,9 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          // {
-          //   resolve: 'gatsby-remark-images',
-          // },
+          {
+            resolve: 'gatsby-remark-images',
+          },
           {
             resolve: 'gatsby-remark-responsive-iframe',
           },
@@ -32,14 +32,14 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/portfolio/`,
+        path: `./content/portfolio/`,
         name: 'portfolio',
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/team/`,
+        path: `./content/team/`,
         name: 'team',
       },
     },
