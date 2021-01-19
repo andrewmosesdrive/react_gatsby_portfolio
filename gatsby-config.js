@@ -6,13 +6,8 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `./content/images/`,
-        name: 'images',
-      },
-    },
+    
+ 
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -32,15 +27,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `./content/portfolio/`,
+        path: `${__dirname}/content/portfolio/`,
         name: 'portfolio',
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `./content/team/`,
-        name: 'team',
       },
     },
     {
